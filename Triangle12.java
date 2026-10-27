@@ -21,3 +21,19 @@ public class Triangle12 {
         sc.close();
     }
 }
+        
+        System.out.println("--- Segitiga Terbalik ---");
+        int i = n;
+        while (i >= 1) {
+            int j = 0;
+            while (j < i) {
+                System.out.print("*");
+                j++;
+            }
+            System.out.println();
+            i--;
+        }
+        
+        sc.close();
+    }
+}
